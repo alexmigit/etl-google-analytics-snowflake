@@ -1,0 +1,9 @@
+google-analytics-data 
+pandas 
+snowflake-connector-python 
+sqlalchemy 
+boto3
+python-dotenv
+requests
+dbt-core
+dbt-snowflake
