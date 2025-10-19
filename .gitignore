@@ -222,3 +222,6 @@ dbt_modules/
 
 # MacOS system files
 .DS_Store
+
+# Data
+data/
