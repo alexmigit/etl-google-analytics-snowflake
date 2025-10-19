@@ -1,4 +1,5 @@
 google-analytics-data 
+google-cloud-bigquery
 pandas 
 snowflake-connector-python 
 sqlalchemy 

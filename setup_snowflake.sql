@@ -72,6 +72,10 @@ CREATE SCHEMA IF NOT EXISTS ANALYTICS
 -------------------------------------------------------------------
 -- 4. Tables (Examples)
 -------------------------------------------------------------------
+-- Snowflake managed stage for raw data files
+CREATE STAGE BUSINESS_DB.GA_RAW.RAW_STAGE 
+	DIRECTORY = ( ENABLE = true );
+
 -- GA Raw
 CREATE TABLE IF NOT EXISTS GA_RAW.GA_SESSIONS_RAW (
     EXTRACT_DATE DATE DEFAULT CURRENT_DATE,
